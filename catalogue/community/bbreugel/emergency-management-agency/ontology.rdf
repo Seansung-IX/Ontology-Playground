@@ -236,13 +236,6 @@ Note that Incident_Event updates Incident_Classification</rdfs:comment>
         <ont:propertyType>string</ont:propertyType>
     </owl:DatatypeProperty>
 
-    <owl:DatatypeProperty rdf:about="http://example.org/ontology/emergency-management-agency-ontology/new-entity-11_">
-        <rdfs:label></rdfs:label>
-        <rdfs:domain rdf:resource="http://example.org/ontology/emergency-management-agency-ontology/New-entity-11"/>
-        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
-        <ont:propertyType>string</ont:propertyType>
-    </owl:DatatypeProperty>
-
     <owl:DatatypeProperty rdf:about="http://example.org/ontology/emergency-management-agency-ontology/new-entity-10_Location_ID">
         <rdfs:label>Location_ID</rdfs:label>
         <rdfs:domain rdf:resource="http://example.org/ontology/emergency-management-agency-ontology/New-entity-10"/>
