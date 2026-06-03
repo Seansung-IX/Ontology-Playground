@@ -1,8 +1,4 @@
-# GitHub Pages deployment - for forks
-# Currently disabled (private repo). To enable:
-#   1. Make the repo public (or use GitHub Enterprise with Pages)
-#   2. Uncomment the push trigger below
-#   3. Go to Settings -> Pages -> Source: GitHub Actions
+# GitHub Pages deployment
 name: Deploy to GitHub Pages
 
 on:
@@ -32,6 +28,8 @@ jobs:
           cache: npm
 
       - run: npm ci --ignore-scripts
+
+      - run: npm run catalogue:build
 
       - run: npm test
 
