@@ -147,8 +147,10 @@
   --graph-edge-color: #ADB5BD;
   --graph-edge-text: #6C757D;
 
-  --chess-square-dark: rgba(214, 0, 42, 0.06);
-  --chess-square-light: rgba(214, 0, 42, 0.03);
+  /* Opaque light base so the canvas reads light (the dark body must not show
+     through); faint crimson squares keep the branded checker pattern. */
+  --chess-square-dark: rgba(214, 0, 42, 0.07);
+  --chess-square-light: #FBF7F8;
   --about-link-color: #A8001F;
   --about-link-hover-color: #D6002A;
 }
